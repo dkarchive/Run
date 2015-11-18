@@ -26,7 +26,7 @@ Title: https://github.com/fastlane/deliver
 
 ### `Run` multiple
 
-Open an issue with the `repos` in the issue `Comment` ([example](https://github.com/ReadmeCritic/Run/issues/4)).
+Open an issue with the `repos` in the issue `Comment` ([example](https://github.com/ReadmeCritic/Run/issues/9)).
 
 ```shell
 Title: run # can be anything

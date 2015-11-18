@@ -11,6 +11,8 @@ Examples
 
 To get ReadmeCritic to run and check for redirected URLs, open [an issue here](https://github.com/ReadmeCritic/Run/issues/new) :runner: 
 
+The issue will be updated with results (if redirects are found).
+
 ## Issue Format
 
 ### `Run` once
@@ -24,7 +26,7 @@ Title: https://github.com/fastlane/deliver
 
 ### `Run` multiple
 
-Open an issue with the `repos` in the issue `Comment`.
+Open an issue with the `repos` in the issue `Comment` ([example](https://github.com/ReadmeCritic/Run/issues/4)).
 
 ```shell
 Title: run # can be anything
@@ -39,6 +41,8 @@ To check all projects from a GitHub user / organisation, open an issue with @use
 Title: @dkhamsing
 Title: @CocoaPods
 ```
+
+⚠️ @username is not supported yet :grin:
 
 ## Contact
 

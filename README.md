@@ -2,6 +2,8 @@
 
 [ReadmeCritic](https://github.com/pulls?utf8=✓&q=is%3Amerged+is%3Apr+author%3AReadmeCritic) uses [`frankenstein`](https://github.com/dkhamsing/frankenstein) to correct [HTTP redirects](https://en.wikipedia.org/wiki/URL_redirection) in GitHub READMEs.
 
+![](https://cloud.githubusercontent.com/assets/15367484/11245712/f26982f2-8dc8-11e5-8543-d31a0d9729fe.gif)
+
 Examples
 
 - https://github.com/mesosphere/marathon/pull/2649
@@ -43,6 +45,10 @@ Title: @CocoaPods
 ```
 
 ⚠️ @username is not supported yet :grin:
+
+## Credits
+
+Run gif from [Giphy](http://gph.is/XKk8ay).
 
 ## Contact
 

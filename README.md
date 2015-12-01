@@ -1,54 +1,47 @@
 # Run
 
-[ReadmeCritic](https://github.com/pulls?utf8=✓&q=is%3Amerged+is%3Apr+author%3AReadmeCritic) uses [`frankenstein`](https://github.com/dkhamsing/frankenstein) to correct [HTTP redirects](https://en.wikipedia.org/wiki/URL_redirection) in GitHub READMEs.
-
 ![](https://cloud.githubusercontent.com/assets/15367484/11245712/f26982f2-8dc8-11e5-8543-d31a0d9729fe.gif)
 
-Examples
+[ReadmeCritic](https://github.com/pulls?utf8=✓&q=is%3Amerged+is%3Apr+author%3AReadmeCritic) uses [`frankenstein`](https://github.com/dkhamsing/frankenstein) to correct [HTTP redirects](https://en.wikipedia.org/wiki/URL_redirection) in GitHub READMEs.
 
 - https://github.com/mesosphere/marathon/pull/2649
-- https://github.com/adametry/gulp-eslint/pull/119
 - https://github.com/twbs/bootstrap-sass/pull/984
-- and [more](https://github.com/pulls?utf8=✓&q=is%3Amerged+is%3Apr+author%3AReadmeCritic)
+- [more](https://github.com/pulls?utf8=✓&q=is%3Amerged+is%3Apr+author%3AReadmeCritic)
 
 To get ReadmeCritic to run and check for redirected URLs, open [an issue here](https://github.com/ReadmeCritic/Run/issues/new) :runner: 
 
-The issue will be updated with results (if redirects are found).
+The issue gets updated when results are [available](https://github.com/ReadmeCritic/Run/issues/49). 
 
 ## Issue Format
 
-### `Run` once
+### `Run` simple
 
-Open an issue with the `repo` in the issue `Title`.
+[Open an issue](https://github.com/ReadmeCritic/Run/issues/new) with the `repo` in the issue `Title`.
 
 ```
 Title: fastlane/deliver
+```
+
+```
 Title: https://github.com/fastlane/deliver
 ```
 
 ### `Run` multiple
 
-Open an issue with the `repos` in the issue `Comment` ([example](https://github.com/ReadmeCritic/Run/issues/9)).
+[Open an issue](https://github.com/ReadmeCritic/Run/issues/new) with the `repos` in the issue `Comment`.
 
 ```shell
 Title: run # can be anything
+
 Comment: 
 fastlane/deliver
 orta/ARAnalytics
+https://github.com/twitter/typeahead.js
 ```
-
-To check all projects from a GitHub user / organisation, open an issue with @username in the issue `Title`.
-
-```
-Title: @dkhamsing
-Title: @CocoaPods
-```
-
-⚠️ @username is not supported yet :grin:
 
 ## Credits
 
-Run gif from [Giphy](http://gph.is/XKk8ay).
+- [Giphy](http://gph.is/XKk8ay)
 
 ## Contact
 

@@ -14,29 +14,15 @@ The issue gets updated when results are [available](https://github.com/ReadmeCri
 
 ## Issue Format
 
-### `Run` simple
-
-[Open an issue](https://github.com/ReadmeCritic/Run/issues/new) with the `repo` in the issue `Title`.
-
-```
-Title: fastlane/deliver
-```
-
-```
-Title: https://github.com/fastlane/deliver
-```
-
-### `Run` multiple
-
 [Open an issue](https://github.com/ReadmeCritic/Run/issues/new) with the `repos` in the issue `Comment`.
 
 ```shell
-Title: run # can be anything
+Title: your name
 
 Comment: 
 fastlane/deliver
 orta/ARAnalytics
-https://github.com/twitter/typeahead.js
+https://github.com/twitter/typeahead.js # there is a limit of 5 projects per issue, the rest is discarded
 ```
 
 ## Credits
